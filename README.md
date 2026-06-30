@@ -19,3 +19,7 @@ Question 2: Docker networking (docker-compose)
 Answer:
 
 db:5432
+
+## Notes
+- pip version was obtained by running inside python:3.13 container
+- pgAdmin connects using Docker service name, not localhost
