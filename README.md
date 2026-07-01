@@ -1,25 +1,35 @@
-# data-engineering-zoomcamp
+# Data Engineering Zoomcamp
 
-Module 1 Homework — Docker & SQL
-Question 1: Understanding Docker images
+This repository contains my work for the **DataTalksClub Data Engineering Zoomcamp (2026)**.
 
-Command used:
+## Module 1 – Docker & SQL
 
-docker run -it --entrypoint bash python:3.13
+### Homework Answers
 
-Inside container:
+| Question | Answer |
+|----------|--------|
+| Question 1 | pip **26.1.2** |
+| Question 2 | **postgres:5432** |
+| Question 3 | **8,007** |
+| Question 4 | **2025-11-14** |
+| Question 5 | **East Harlem North** |
+| Question 6 | **Yorkville West** |
 
-pip --version
+## Repository Contents
 
-Answer:
+| File | Description |
+|------|-------------|
+| `docker-compose.yaml` | Docker Compose configuration for PostgreSQL and pgAdmin |
+| `ingest_data.py` | Python script to load the Green Taxi trips and Taxi Zone Lookup datasets into PostgreSQL |
+| `module1-sql-queries.sql` | SQL queries used to answer the homework questions |
 
-pip 26.1.2
-Question 2: Docker networking (docker-compose)
+## Technologies Used
 
-Answer:
-
-db:5432
-
-## Notes
-- pip version was obtained by running inside python:3.13 container
-- pgAdmin connects using Docker service name, not localhost
+- Docker
+- Docker Compose
+- PostgreSQL
+- pgAdmin
+- Python
+- Pandas
+- SQLAlchemy
+- SQL
